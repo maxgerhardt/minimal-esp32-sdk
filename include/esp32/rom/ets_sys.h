@@ -19,16 +19,15 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-//#include "sdkconfig.h"
+#include "sdkconfig.h"
 
 #ifdef CONFIG_LEGACY_INCLUDE_COMMON_HEADERS
 #include "soc/soc.h"
 #endif
 
-/*#ifndef CONFIG_IDF_TARGET_ESP32
+#ifndef CONFIG_IDF_TARGET_ESP32
 #error "This header should only be included when building for ESP32"
 #endif
-*/
 
 #ifdef __cplusplus
 extern "C" {
